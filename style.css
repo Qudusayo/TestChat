@@ -1,0 +1,48 @@
+body {
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    overflow-y: auto;
+  }
+
+  #message-container {
+    width: 80%;
+    margin: 2% 10%;
+
+  }
+
+  .yours {
+    background: #CCC;
+    padding: 5px;
+  }
+  .yours, .mine{
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+
+  .mine {
+    background: #FFF;
+    text-align: right;
+  }
+  #send-container {
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    max-width: 1200px;
+    margin: 2% 10% 0 10%;
+    width: 80%;
+    display: flex;
+  }
+
+  #message-input {
+    flex-grow: 1;
+  }
+  .user-on{
+    background: rgba(170, 245, 255, 0.733);
+    padding: .5em;
+}
+.user-off{
+    background: #000;
+    color: #fff;
+    padding: .5em;
+}
